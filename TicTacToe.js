@@ -72,6 +72,27 @@ console.debug(ticTac.join("\n") + "\n")
 /*
  * Der erste Zug:
  * Ein X in die erste Zeile an die zweite Position (Mitte)
+ *
+ * Beim Zugriff auf die Elemente in einem mehrdimensionalen Array ist darauf zu achten,
+ * dass die Reihenfolge der Indizes jeweils von Außen nach Innen geht.
+ * Der erste Index gibt also in diesem zweidimensionalen Array quasi die Zeilen an, der zweite die Spalte.
+ *
+ * Der Spieler mit dem X möchte sein "x" oben in die Mitte setzen,
+ * also in die erste Zeile an die zweite Stelle.
+ * Die Indizierung beginnt bei O zu zählen.
+ * Der Index der ersen Zeile ist daher 0.
+ * Deshalb muss ich beginnen mit:
+ * ticTac[0]
+ *
+ * Der Index der zweiten Position in dieser Zeile ist entsprechend 1.
+ * Also muss ich [1] hinzufügen. Das ergibt:
+ * ticTac[0][1]
+ *
+ * Jetzt habe ich die richtige Position. An diese Stelle soll das "x".
+ * Dies muss ich einfach mit dem Zuweisungsoperator = dem adressierten
+ * Element zuweisen.
+ * Der Befehlt muss deshalb lauten:
+ * ticTac[0][1] = "x"
  */
 ticTac[0][1] = "x"
 
