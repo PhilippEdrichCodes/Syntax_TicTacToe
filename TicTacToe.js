@@ -61,9 +61,9 @@ let ticTac = [["_","_","_"],["_","_","_"],["_","_","_"]]
  *
  * Es fällt auf, dass join() nur in der ersten Dimension den angegebenen Trenner
  * verwendet. In der zweiten Dimension bleibt es beim Standard-Trenner ','.
- * Damit kann ich fürs erste Leben. Aber damit ich die einzelnen Züge auf der
- * Konsole auch auf den ersten Blick unterscheiden kann, füge ich noch
- * gleich an die Ausgabe eine weitere leere neue Zeile an:
+ * Damit kann ich für's Erste leben.
+ * Aber damit ich die einzelnen Züge auf der Konsole auch auf den ersten Blick
+ * unterscheiden kann, füge ich noch an die Ausgabe eine weitere (leere) neue Zeile an:
  * console.debug(ticTac.join("\n") + "\n")
  *
  */
