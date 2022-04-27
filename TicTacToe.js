@@ -4,7 +4,7 @@
 
 /*
  * Zuerst brauche ich ein zweidimensionales Array mit der Größe 3x3.
- * Dazu legen wir ein Array an. Dieses nenne ich ticTac.
+ * Dazu lege ich ein Array an. Dieses nenne ich ticTac.
  * let ticTac = []
  *
  * Diesem gebe ich 3 Elemente.
