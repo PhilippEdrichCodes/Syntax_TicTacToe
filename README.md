@@ -1,7 +1,11 @@
-# Syntax_TicTacToe
+[//]: # (# Syntax_TicTacToe)
 
-Das TicTacToe aus der Vorlesung in einer lauffähigen Version.
-Ausführlich kommentiert.
+# Alfreds TicTacToe
 
-Das Spiel läuft, so wie vorgestellt, automatisch ab,
+Das TicTacToe aus der Vorlesung über Arrays.
+Jetzt nicht in PseudoCode, sondern in einer lauffähigen JavaScript-Version.
+
+Ausführlich und Schritt für Schritt inklusive Hintergrundgedanken kommentiert.
+
+Das Spiel selbst läuft genauso wie vorgestellt und völlig automatisch ab,
 am Ende gewinnt o.
