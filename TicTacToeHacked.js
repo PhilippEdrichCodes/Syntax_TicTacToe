@@ -80,7 +80,27 @@ let ticTac = [["_","_","_"],["_","_","_"],["_","_","_"]]
  * natürlich auch weiterhin bei:
  * console.debug(ticTac[0].join(" ") + "\n" + ticTac[1].join(" ") + "\n" + ticTac[2].join(" ") + "\n" )
  *
+ * Das funktioniert gut. Der Code sieht zwar sauber aus, aber irgendwie nicht profimäßig.
+ * Jetzt fällt mir ein, dass join() ja einen String zurück gibt.
+ * So einen String, bzw. 3 davon, kann man wunderbar in ein Array packen. Und JavaScript war
+ * doch ziemlich hippiemäßig drauf, haben wir gehört.
+ * Das bringt mich auf eine Idee.
  *
+ * Bastle ich mir erstmal das Array:
+ * [ticTac[0].join(" "), ticTac[1].join(" "), ticTac[2].join(" ")]
+ *
+ * Und auf ein Array kann ich wieder join() anwenden.
+ * [ticTac[0].join(" "), ticTac[1].join(" "), ticTac[2].join(" ")].join()
+ *
+ * Ich möchte aber weiterhin die 3 Zeilen einzeln auf der Konsole, also getrennt mit \n
+ * [ticTac[0].join(" "), ticTac[1].join(" "), ticTac[2].join(" ")].join("\n")
+ *
+ * Das ist wieder ein String, und den kann ich auf der Konsole ausgeben:
+ * console.debug([ticTac[0].join(" "), ticTac[1].join(" "), ticTac[2].join(" ")].join("\n") + "\n")
+ *
+ * Natürlich nach wie vor mit dem zusätzlichen \n, damit die einzelnen Spielfelder unterscheidbar sind.
+ *
+ * Sieht jetzt irgendwie cooler aus als vorher. Nicht so ganz CleanCode, aber cool
  *
  */
 console.debug([ticTac[0].join(" "), ticTac[1].join(" "), ticTac[2].join(" ")].join("\n") + "\n")
