@@ -246,7 +246,7 @@ ticTac[0][2] = "o"
  */
 console.debug(ticTac[0].join(" ") + "\n" + ticTac[1].join(" ") + "\n" + ticTac[2].join(" ") + "\n" )
 
-// The winner takes ist all!
+// The winner takes it all!
 console.debug("o wins!")
 
 /*

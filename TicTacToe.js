@@ -230,7 +230,7 @@ ticTac[0][2] = "o"
  */
 console.debug(ticTac.join("\n") + "\n")
 
-// The winner takes ist all!
+// The winner takes it all!
 console.debug("o wins!")
 
 /*
