@@ -79,6 +79,7 @@ let ticTac = [["_","_","_"],["_","_","_"],["_","_","_"]]
  * mit \n und gebe das ganze dann mit console.debug() aus. Das zusätzliche \n am Ende behalte ich
  * natürlich auch weiterhin bei:
  * console.debug(ticTac[0].join(" ") + "\n" + ticTac[1].join(" ") + "\n" + ticTac[2].join(" ") + "\n" )
+ *
  */
 console.debug(ticTac[0].join(" ") + "\n" + ticTac[1].join(" ") + "\n" + ticTac[2].join(" ") + "\n" )
 
