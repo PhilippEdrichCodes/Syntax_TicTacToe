@@ -11,8 +11,12 @@ Das Spiel selbst läuft genauso wie vorgestellt und völlig automatisch ab, am E
 
 Die _ursprüngliche_ Variante ist **TicTacToe.js**
 
-**TicTacToeAdvanced.js** ist die _zweite Version_ und bringt eine bessere Formatierung der Ausgabe hinzu.
-Die Kommentare sind dementsprechend erweitert.
+**TicTacToeAdvanced.js** ist die _zweite Version_ und bringt eine bessere Formatierung der Ausgabe hinzu. Die Kommentare
+sind dementsprechend erweitert.
 
-**TicTacToeHacked.js** ist die _dritte Version_ und verändert die Erstellung der Ausgabe weiter.
-Der Code sieht jetzt cooler aus, aber _**CleanCode ist anders**_ ;-)
+**TicTacToeHacked.js** ist die _dritte Version_ und verändert die Erstellung der Ausgabe weiter. Der Code sieht jetzt
+cooler aus, aber _**CleanCode ist anders**_ ;-)
+Deshalb empfehle ich auch nur den _**Seniors**_, sich das _anzutun_
+
+**TicTacToeFor.js** ist die _vierte Version_. Es basiert auf _TicTacToeAdvanced_, nutzt aber _Schleifen_ zum Befüllen
+und Ausgeben des Spielfeldes
