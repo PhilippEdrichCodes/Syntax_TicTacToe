@@ -18,5 +18,10 @@ sind dementsprechend erweitert.
 cooler aus, aber _**CleanCode ist anders**_ ;-)
 Deshalb empfehle ich auch nur den _**Seniors**_, sich das _anzutun_
 
-**TicTacToeFor.js** ist die _vierte Version_. Es basiert auf _TicTacToeAdvanced_, nutzt aber _Schleifen_ zum Befüllen
+**TicTacToeFor.js** ist die _vierte Version_. Es basiert auf _TicTacToeAdvanced.js_, nutzt aber _Schleifen_ zum Befüllen
 und Ausgeben des Spielfeldes
+
+### COMING SOON
+
+**TicTacToeFunc.js** wird die _fünfte Variante_. Es wird auf _TicTacToeFor.js_ basieren und den Großteil der Logik in _
+Funktionen_ packen
