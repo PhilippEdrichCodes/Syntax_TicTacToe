@@ -122,8 +122,8 @@ for (let zeile = 0; zeile < ticTac.length; zeile++) {
   ausgabe = ausgabe + ticTac[zeile].join(" ") + "\n"
 }
 
-
-console.debug(ticTac[0].join(" ") + "\n" + ticTac[1].join(" ") + "\n" + ticTac[2].join(" ") + "\n")
+console.debug(ausgabe)
+ausgabe = ""
 
 /*
  * Der erste Zug:
@@ -178,8 +178,12 @@ ticTac[0][1] = "x"
  * Hier sind die einzelnen Spielzüge nicht zu unterscheiden
  *
  */
-console.debug(ticTac[0].join(" ") + "\n" + ticTac[1].join(" ") + "\n" + ticTac[2].join(" ") + "\n")
+for (let zeile = 0; zeile < ticTac.length; zeile++) {
+  ausgabe = ausgabe + ticTac[zeile].join(" ") + "\n"
+}
 
+console.debug(ausgabe)
+ausgabe = ""
 /*
  * Zug zwei:
  * o in die obere, linke Ecke (erste Zeile, erste Stelle)
@@ -193,8 +197,12 @@ ticTac[0][0] = "o"
  * _ _ _
  *
  */
-console.debug(ticTac[0].join(" ") + "\n" + ticTac[1].join(" ") + "\n" + ticTac[2].join(" ") + "\n")
+for (let zeile = 0; zeile < ticTac.length; zeile++) {
+  ausgabe = ausgabe + ticTac[zeile].join(" ") + "\n"
+}
 
+console.debug(ausgabe)
+ausgabe = ""
 /*
  * Zug drei:
  * x in die dritte Zeile an die zweite Position (Mitte Unten)
@@ -209,8 +217,12 @@ ticTac[2][1] = "x"
  * _ x _
  *
  */
-console.debug(ticTac[0].join(" ") + "\n" + ticTac[1].join(" ") + "\n" + ticTac[2].join(" ") + "\n")
+for (let zeile = 0; zeile < ticTac.length; zeile++) {
+  ausgabe = ausgabe + ticTac[zeile].join(" ") + "\n"
+}
 
+console.debug(ausgabe)
+ausgabe = ""
 /*
  * Zug vier:
  * o in die Mitte (Zeile 2, Position 2
@@ -225,8 +237,12 @@ ticTac[1][1] = "o"
  * _ x _
  *
  */
-console.debug(ticTac[0].join(" ") + "\n" + ticTac[1].join(" ") + "\n" + ticTac[2].join(" ") + "\n")
+for (let zeile = 0; zeile < ticTac.length; zeile++) {
+  ausgabe = ausgabe + ticTac[zeile].join(" ") + "\n"
+}
 
+console.debug(ausgabe)
+ausgabe = ""
 /*
  * Zug fünf:
  * x in die rechte, untere Ecke
@@ -241,8 +257,12 @@ ticTac[2][2] = "x"
  * _ x x
  *
  */
-console.debug(ticTac[0].join(" ") + "\n" + ticTac[1].join(" ") + "\n" + ticTac[2].join(" ") + "\n")
+for (let zeile = 0; zeile < ticTac.length; zeile++) {
+  ausgabe = ausgabe + ticTac[zeile].join(" ") + "\n"
+}
 
+console.debug(ausgabe)
+ausgabe = ""
 /*
  * Zug sechs:
  * o unten vorne (Zeile 3 Position 1)
@@ -257,8 +277,12 @@ ticTac[2][0] = "o"
  * o x x
  *
  */
-console.debug(ticTac[0].join(" ") + "\n" + ticTac[1].join(" ") + "\n" + ticTac[2].join(" ") + "\n")
+for (let zeile = 0; zeile < ticTac.length; zeile++) {
+  ausgabe = ausgabe + ticTac[zeile].join(" ") + "\n"
+}
 
+console.debug(ausgabe)
+ausgabe = ""
 /*
  * Zug sieben:
  * x in die zweite Reihe vorne hin
@@ -272,8 +296,12 @@ ticTac[1][0] = "x"
  * x o _
  * o x x
  */
-console.debug(ticTac[0].join(" ") + "\n" + ticTac[1].join(" ") + "\n" + ticTac[2].join(" ") + "\n")
+for (let zeile = 0; zeile < ticTac.length; zeile++) {
+  ausgabe = ausgabe + ticTac[zeile].join(" ") + "\n"
+}
 
+console.debug(ausgabe)
+ausgabe = ""
 /*
  * Zug acht:
  * o oben rechts (Zeile 1, Position 2
@@ -286,8 +314,12 @@ ticTac[0][2] = "o"
  * x o _
  * o x x
  */
-console.debug(ticTac[0].join(" ") + "\n" + ticTac[1].join(" ") + "\n" + ticTac[2].join(" ") + "\n")
+for (let zeile = 0; zeile < ticTac.length; zeile++) {
+  ausgabe = ausgabe + ticTac[zeile].join(" ") + "\n"
+}
 
+console.debug(ausgabe)
+ausgabe = ""
 // The winner takes it all!
 console.debug("o wins!")
 
